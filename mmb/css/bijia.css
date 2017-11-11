@@ -1,0 +1,337 @@
+@charset "utf-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 21.33px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 26.67px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 28.27px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.mmb_container {
+  width: 100%;
+  background-color: white;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.mmb_header {
+  width: 100%;
+  height: 1.4rem;
+  max-width: 750px;
+  background-color: #ff841d;
+}
+.mmb_header a {
+  display: block;
+  vertical-align: middle;
+  height: 1.4rem;
+}
+.mmb_header .mmb_logo {
+  width: 90%;
+  height: 1.4rem;
+  float: left;
+}
+.mmb_header .mmb_logo img {
+  vertical-align: middle;
+  height: 0.8rem;
+  width: 6rem;
+  margin-left: 0.4rem;
+}
+.mmb_header .mmb_appdown {
+  width: 10%;
+  height: 1.4rem;
+  float: right;
+}
+.mmb_header .mmb_appdown a {
+  padding: 0 0.36rem;
+}
+.mmb_header .mmb_appdown a img {
+  width: 0.96rem;
+  height: 0.9rem;
+  vertical-align: middle;
+}
+.mmb_menu .mmb_search {
+  width: 100%;
+  height: 1.6rem;
+  background-color: #fff;
+}
+.mmb_menu .mmb_search input {
+  width: 75%;
+  height: 1rem;
+  border-radius: 0.8rem;
+  margin-top: 0.32rem;
+  margin-left: 0.4rem;
+  padding-left: 0.4rem;
+  float: left;
+  border-style: none;
+  outline-style: none;
+  background-color: #f1f1f1;
+  font-size: 0.4rem;
+}
+.mmb_menu .mmb_search button {
+  width: 15%;
+  height: 1rem;
+  float: right;
+  margin-top: 0.32rem;
+  border-radius: 0.8rem;
+  background-color: #ff841d;
+  border-style: none;
+  outline-style: none;
+  margin-right: 0.4rem;
+  color: #fff;
+  font-size: 0.48rem;
+}
+.mmb_category .p-list {
+  background: linear-gradient(#ffffff, #ebebeb);
+  border-top: 0.02rem solid #ebebeb;
+  border-bottom: 0.02rem solid #ccc;
+  line-height: 0.6rem;
+  padding-left: 0.2rem;
+}
+.mmb_category .p-list a {
+  display: inline-block;
+  height: 0.76rem;
+  font-size: 0.36rem;
+}
+.mmb_category .p-bijia {
+  height: 10.8rem;
+  margin-top: 0.32rem;
+}
+.mmb_category .p-bijia .p-name {
+  text-align: center;
+  font-size: 0.44rem;
+  width: 90%;
+  margin: 0 auto;
+  height: 4rem;
+}
+.mmb_category .p-bijia .p-img {
+  width: 3.4rem;
+  height: 3.4rem;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+.mmb_category .p-bijia .p-collect {
+  float: right;
+  margin-right: 0.48rem;
+  right: 0;
+  bottom: 0;
+}
+.mmb_category .p-bijia .p-collect a {
+  color: #000;
+  text-decoration: none;
+}
+.mmb_category .p-tab {
+  height: 1rem;
+  border-top: 0.02rem solid #c14d00;
+  border-bottom: 0.02rem solid #c14d00;
+}
+.mmb_category .p-tab a {
+  float: left;
+  width: 33.33%;
+  font-size: 0.48rem;
+  line-height: 0.96rem;
+  text-align: center;
+  background-color: #ffbb00;
+  color: #fff;
+}
+.mmb_category .p-tab .cp {
+  border-left: 0.02rem solid #c14d00;
+  border-right: 0.02rem solid #c14d00;
+}
+.mmb_category .p-plist .logo {
+  font-size: 0.48rem;
+  height: 1.2rem;
+  width: 100%;
+}
+.mmb_category .p-plist .logo a {
+  float: left;
+  line-height: 1.2rem;
+  margin-left: 0.28rem;
+}
+.mmb_category .p-plist .logo span {
+  margin-right: 0.4rem;
+  color: #d10311;
+  line-height: 1.2rem;
+}
+.mmb_category .p-plist .logo p {
+  width: 1.6rem;
+  line-height: 0.72rem;
+  font-size: 0.4rem;
+  text-align: center;
+  color: #fff;
+  float: right;
+  margin-top: 0.28rem;
+  background-color: #ff5500;
+  border-radius: 0.08rem;
+  margin-right: 0.4rem;
+}
+.mmb_category .p-plist .warn {
+  width: 100%;
+  height: 1.3rem;
+  font-size: 0.4rem;
+  color: #888;
+  padding: 0.16rem 0.2rem;
+  line-height: 0.9rem;
+}
+.mmb_category .p-plist .warn p {
+  margin: 0.18rem;
+}
+.mmb_category .p-ct {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  text-align: center;
+  background-color: #dbdbdb;
+  font-size: 0.44rem;
+  border-top: 0.12rem solid #7a7a7a;
+  margin-top: 0.92rem;
+}
+.mmb_category .p-cl li {
+  font-size: 0.32rem;
+  color: #666;
+  padding: 0.2rem;
+  line-height: 0.4rem;
+  margin-top: 0.08rem;
+  border-bottom: 0.02rem solid #ccc;
+}
+.mmb_category .p-cl li .span {
+  width: 100%;
+  height: 0.6rem;
+}
+.mmb_category .p-cl li .span .fl {
+  float: left;
+}
+.mmb_category .p-cl li .span .fr {
+  float: right;
+}
+.mmb_category .p-cl li .gw {
+  width: 100%;
+  height: 0.6rem;
+  margin-left: 84%;
+}
+.mmb_category .p-cl li .js {
+  color: #000;
+  line-height: 0.64rem;
+  text-indent: 0.72rem;
+}
+.mmb_category .p-cl .mmb_information {
+  width: 100%;
+  height: 1rem;
+  background-color: #fff;
+  padding: 0.2rem;
+  margin-top: 0.2rem;
+}
+.mmb_category .p-cl .mmb_information a {
+  height: 0.92rem;
+  display: block;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 0.44rem;
+  text-align: center;
+  line-height: 0.92rem;
+  background-color: #d4d4d4;
+}
+.mmb_footer {
+  width: 100%;
+  height: 3.4rem;
+}
+.mmb_footer .mmb_foot_top {
+  height: 1.32rem;
+  line-height: 1.3rem;
+  margin-top: 0.8rem;
+  background-color: #efefef;
+  border-top: 0.02rem solid #c4c4c4;
+  border-bottom: 0.02rem solid #c4c4c4;
+}
+.mmb_footer .mmb_foot_top a {
+  width: 30%;
+  height: 1.3rem;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 0.44rem;
+  border-right: 1px solid #c5c5c5;
+}
+.mmb_footer .mmb_foot_top img {
+  vertical-align: middle;
+  margin-top: -0.06rem;
+  margin-right: 0.04rem;
+}
+.mmb_footer .mmb_foot_top .return {
+  width: 40%;
+}
+.mmb_footer .mmb_foot_bottom {
+  text-align: center;
+  font-size: 0.36rem;
+  padding: 0.6rem 0;
+  color: gray;
+  background-color: #efefef;
+}
+.mmb_footer .mmb_foot_bottom .mobile-app {
+  color: red;
+}
+.mmb_footer .mmb_foot_bottom .mobile-size {
+  color: black;
+}
+.mmb_footer .mmb_foot_bottom a {
+  text-decoration: none;
+}

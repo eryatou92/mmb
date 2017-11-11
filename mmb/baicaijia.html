@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>白菜价-淘宝内部券</title>
+  <link rel="stylesheet" href="css/baicaijia.css">
+  <link rel="stylesheet" href="fa/css/font-awesome.css">
+</head>
+<body>
+
+<div class="mmb_container">
+
+  <div class="mmb_header">
+    <div class="mmb_back"><a href="index.html" class="fa fa-angle-left"></a></div>
+    <div class="mmb_title"><span>国内折扣</span></div>
+    <div class="mmb_appdown"><a href="index.html"><img src="images/header_app.png" alt=""></a></div>
+  </div>
+
+  <div class="mmb_coupon">
+
+    <div class="bcj-head">
+        <ul>
+          <!--<li>全部</li>-->
+          <!--<li>热销</li>-->
+          <!--<li>9块邮</li>-->
+          <!--<li>19块邮</li>-->
+          <!--<li>数码家电</li>-->
+          <!--<li>居家</li>-->
+          <!--<li>美食</li>-->
+          <!--<li>男装</li>-->
+          <!--<li>女装</li>-->
+          <!--<li>鞋包配饰</li>-->
+        </ul>
+    </div>
+
+    <div class="bcj-list">
+      <ul>
+        <!--<li class="bcj-product">-->
+          <!--<div class="product_list_fl">-->
+            <!--<img src="#" alt="">-->
+          <!--</div>-->
+          <!--<div class="product_list_fr">-->
+            <!--<div class="product_title">-->
+              <!--<div class="by">[包邮]裸装 法兰琳卡洗面奶正品</div>-->
+              <!--<div class="pr">-->
+                <!--<i>券后</i>-->
+                <!--<em>¥</em>-->
+                <!--19.0-->
+                <!--<del>¥29</del>-->
+              <!--</div>-->
+            <!--</div>-->
+            <!--<div class="product_other">-->
+              <!--<div class="i">-->
+                <!--<span class="one">14%</span>-->
+                <!--<span>已领1493张</span>-->
+              <!--</div>-->
+              <!--<div class="p">-->
+                <!--<span>点此领10元优惠券</span>-->
+                <!--<a href="#">下单连接</a>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</li>-->
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="mmb_footer">
+    <div class="mmb_foot_top">
+      <a href="#">登录</a>
+      <a href="#" class="register">注册</a>
+      <a href="#" class="return">
+        <img src="#" alt="">
+        返回顶部</a>
+    </div>
+    <div class="mmb_foot_bottom">
+      <p>
+        <a class="mobile-app" href="#">手机APP下载</a>
+        <a class="mobile-size" href="#">慢慢买手机版</a>
+        -- 掌上比价平台
+      </p>
+      <p>m.manmanbuy.com</p>
+    </div>
+  </div>
+
+</div>
+
+<script type="text/html" id="tmp1">
+  {{each result as v i}}
+  <li data-id="{{#v.titleId}}">{{#v.title}}</li>
+  {{/each}}
+</script >
+
+<script type="text/html" id="tmp2">
+  {{each result as v i}}
+  <li class="bcj-product">
+    <div class="product_list_fl">
+      {{#v.productImg}}
+    </div>
+    <div class="product_list_fr">
+      <div class="product_title">
+        <div class="by">{{#v.productName}}</div>
+        <div class="pr">
+          {{#v.productPrice}}
+
+        </div>
+      </div>
+      <div class="product_other">
+        <div class="i">
+          <span>{{#v.productCouponRemain}}</span>
+        </div>
+        <div class="p">
+          <span>{{#v.productCoupon}}</span>
+          <a href="javascript:;">{{#v.productHref}}</a>
+        </div>
+      </div>
+    </div>
+  </li>
+  {{/each}}
+</script>
+
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template.js"></script>
+<script src="js/common.js"></script>
+<script src="js/baicaijia.js"></script>
+</body>
+</html>

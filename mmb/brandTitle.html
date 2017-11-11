@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>品牌大全</title>
+  <link rel="stylesheet" href="css/brandTitle.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<div class="mmb_container">
+
+  <div class="mmb_header">
+    <div class="mmb_logo"><a href="index.html"><img src="images/header_logo.png" alt=""></a></div>
+    <div class="mmb_appdown"><a href="index.html"><img src="images/header_app.png" alt=""></a></div>
+  </div>
+
+  <div class="mmb_menu">
+    <div class="mmb_search">
+      <input type="text" placeholder="请输入你想比价的商品">
+      <button>搜索</button>
+    </div>
+  </div>
+
+  <div class="mmb_category">
+
+    <div class="product-list">
+      <a href="index.html" class="list-title1">首页></a>
+
+      <a href="category.html" class="list-title2">全部分类></a>
+
+    </div>
+
+    <div style="font-size: 16px;color:#874604;height: 40px; padding-left:10px; line-height: 40px;margin:10px 5px; border:1px solid #ccc; background-color:#eee;">
+      热门品牌排行
+    </div>
+
+    <div class="rows">
+      <ul>
+        <!--<li class="list">-->
+        <!--<a href="#" class="one">平板电视十大品牌</a>-->
+        <!--</li>-->
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="mmb_footer">
+    <div class="mmb_foot_top">
+      <a href="#">登录</a>
+      <a href="#" class="register">注册</a>
+      <a href="#" class="return">
+        <img src="#" alt="">
+        返回顶部</a>
+    </div>
+    <div class="mmb_foot_bottom">
+      <p>
+        <a class="mobile-app" href="#">手机APP下载</a>
+        <a class="mobile-size" href="#">慢慢买手机版</a>
+        -- 掌上比价平台
+      </p>
+      <p>m.manmanbuy.com</p>
+    </div>
+  </div>
+
+</div>
+
+
+<script type="text/html" id="tpl">
+  {{each result as v i}}
+  <li class="list">
+    <a href="#" class="one">{{v.brandTitle}}</a>
+  </li>
+  {{/each}}
+</script>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template.js"></script>
+<script src="js/common.js"></script>
+<script src="js/brandTitle.js"></script>
+</body>
+</html>

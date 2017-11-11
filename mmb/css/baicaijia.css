@@ -1,0 +1,259 @@
+@charset "utf-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 21.33px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 26.67px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 28.27px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.mmb_container {
+  width: 100%;
+  background-color: #f1f1f1;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.mmb_header {
+  width: 100%;
+  height: 1.4rem;
+  max-width: 750px;
+  background-color: #ff841d;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mmb_header .mmb_back {
+  width: 10%;
+  height: 1.4rem;
+  float: left;
+  text-align: center;
+}
+.mmb_header .mmb_back .fa {
+  line-height: 1.4rem;
+  color: #fff;
+}
+.mmb_header .mmb_title {
+  width: 80%;
+  height: 1.4rem;
+  text-align: center;
+  float: left;
+  font-size: 0.68rem;
+  font-weight: bolder;
+  color: #fff;
+  line-height: 1.4rem;
+}
+.mmb_header .mmb_appdown {
+  width: 10%;
+  height: 1.4rem;
+  float: right;
+  text-align: center;
+}
+.mmb_header .mmb_appdown img {
+  width: 1.1rem;
+  height: 1rem;
+}
+.mmb_coupon .bcj-head {
+  width: 120%;
+  height: 0.7rem;
+  background-color: #fff;
+}
+.mmb_coupon .bcj-head li {
+  height: 0.76rem;
+  font-size: 0.4rem;
+  line-height: 0.72rem;
+  float: left;
+  padding: 0.22rem 0.28rem;
+  overflow: hidden;
+}
+.mmb_coupon .bcj-list .bcj-product {
+  width: 100%;
+  height: 4rem;
+  background-color: #fff;
+  border-bottom: 0.04rem solid #f9f9f9;
+  padding-top: 0.5rem;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fl {
+  width: 20%;
+  height: 3.3rem;
+  float: left;
+  margin-left: 0.3rem;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fl img {
+  width: 3.6rem;
+  height: 3.3rem;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr {
+  width: 75%;
+  height: 4rem;
+  float: right;
+  margin-right: 0.2rem;
+  font-size: 0.44rem;
+  height: 2.6rem;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_title {
+  height: 2rem;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_title .by {
+  font-size: 0.36rem;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_title .pr {
+  color: #fc353a;
+  font-weight: bold;
+  font-size: 0.56rem;
+  padding: 0.2rem;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_title i,
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_title em {
+  font-style: normal;
+  font-size: 0.44rem;
+  color: #fc353a;
+  font-weight: normal;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_title del {
+  color: #8a8a8a;
+  font-size: 0.28rem;
+  font-weight: normal;
+  margin-left: 0.2rem;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_other .i {
+  font-size: 0.24rem;
+  color: #fc353a;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_other .i .one {
+  color: #fff;
+  font-weight: 900;
+  border: 0.02rem solid #fc353a;
+  text-align: center;
+  border-radius: 0.2rem;
+  width: 4rem;
+  height: 0.28rem;
+  padding: 0 1rem;
+  margin-right: 0.2rem;
+  background-color: #ff5e5d;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_other .p {
+  padding: 0.2rem 0;
+  font-size: 0.36rem;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_other .p span {
+  color: #e4393c;
+  float: left;
+  border: 0.02rem dotted #e4393c;
+  padding: 0.1rem 0.2rem;
+  text-align: center;
+}
+.mmb_coupon .bcj-list .bcj-product .product_list_fr .product_other .p a {
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #ff5e5d;
+  background-color: #ff5e5d;
+  border-radius: 0.1rem;
+  padding: 0.1rem 0.2rem;
+}
+.mmb_footer {
+  width: 100%;
+  height: 3.4rem;
+}
+.mmb_footer .mmb_foot_top {
+  height: 1.32rem;
+  line-height: 1.3rem;
+  margin-top: 1.2rem;
+  background-color: #efefef;
+  border-top: 0.02rem solid #c4c4c4;
+  border-bottom: 0.02rem solid #c4c4c4;
+}
+.mmb_footer .mmb_foot_top a {
+  width: 30%;
+  height: 1.3rem;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 0.44rem;
+  border-right: 1px solid #c5c5c5;
+}
+.mmb_footer .mmb_foot_top img {
+  vertical-align: middle;
+  margin-top: -0.1rem;
+  margin-right: 0.04rem;
+}
+.mmb_footer .mmb_foot_top .return {
+  width: 40%;
+}
+.mmb_footer .mmb_foot_bottom {
+  text-align: center;
+  font-size: 0.36rem;
+  padding: 0.6rem 0;
+  color: gray;
+  background-color: #efefef;
+}
+.mmb_footer .mmb_foot_bottom .mobile-app {
+  color: red;
+}
+.mmb_footer .mmb_foot_bottom .mobile-size {
+  color: black;
+}
+.mmb_footer .mmb_foot_bottom a {
+  text-decoration: none;
+}

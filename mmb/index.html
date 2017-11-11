@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>慢慢买</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fa/css/font-awesome.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+    <div class="mmb_container">
+        <div class="mmb_header">
+            <div class="mmb_logo"><a href="index.html"><img src="images/header_logo.png" alt=""></a></div>
+            <div class="mmb_appdown"><a href="index.html"><img src="images/header_app.png" alt=""></a></div>
+        </div>
+
+        <div class="mmb_menu">
+            <div class="mmb_search">
+                <input type="text" placeholder="请输入你想比价的商品">
+                <button>搜索</button>
+            </div>
+
+            <div class="rows ">
+                <ul class="lm">
+                    <!--方数据的地方-->
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="mmb_recommen">
+            <div class="mmb_recommen_count">
+                <a href="#">超值折扣推荐</a>
+                <div class="fa fa-chevron-circle-right"></div>
+            </div>
+
+            <div class="mmb_recommen_product">
+                <ul>
+                    <!--放数据的地方-->
+                </ul>
+
+
+            </div>
+        </div>
+
+        <div class="mmb_footer">
+            <div class="mmb_information">
+                <a href="moneyctrl.html">更多优惠信息>></a>
+            </div>
+            <div class="mmb_pank">
+                <a href="javascript:;">品牌排行</a>
+                <div class="fa fa-chevron-circle-right"></div>
+            </div>
+            <div class="mmb_foot">
+                <div class="mmb_foot_top">
+                    <a href="#">登录</a>
+                    <a href="#" class="register">注册</a>
+                    <a href="#" class="return">返回顶部</a>
+                </div>
+                <div class="mmb_foot_bottom">
+                    <p>
+                        <a class="mobile-app" href="#">手机APP下载</a>
+                        <a class="mobile-size" href="#">慢慢买手机版</a>
+                        -- 掌上比价平台
+                    </p>
+                    <p>m.manmanbuy.com</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/html" id="tpl">
+        {{each result as v i}}
+        <li class="mmb_menu_item">
+            <a href="{{v.titlehref}}">{{#v.img}}</a>
+
+            <p>{{v.name}}</p>
+        </li>
+        {{/each}}
+    </script>
+
+
+
+    <script type="text/html" id="tpl2">
+        {{each result as v i}}
+        <li class="mmb_product_list">
+            <div class="product_list_fl">
+                <!--<% + v.productImg2 %>-->
+                {{#v.productImg2}}
+            </div>
+            <div class="product_list_fr">
+                <div class="product_title">
+                    {{v.productName}}
+                    <span>{{v.productPinkage}}</span>
+                </div>
+                <div class="product_other">
+                    <span class="p_fl">{{v.productFrom}} |</span>
+                    <span class="p_fc">{{v.productTime}}</span>
+                    <span class="p_fr">&nbsp;{{v.productComCount.substr(1,1)}}</span>
+                </div>
+            </div>
+        </li>
+        {{/each}}
+    </script>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/artTemplate/template.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>

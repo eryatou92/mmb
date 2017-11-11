@@ -1,0 +1,183 @@
+@import "adapt.less";
+
+body,html{
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin:0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.mmb_container {
+  width: 100%;
+  background-color: #fff;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+
+.mmb_header {
+  width: 100%;
+  height: 70rem/50;
+  max-width: 750px;
+  background-color: #f4483e;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform:translateX(-50%);
+
+  .mmb_back{
+    width: 10%;
+    height: 70rem/50;
+    padding:12rem/50;
+    float: left;
+
+    .icon-back{
+      background: url(../images/icon_bar.png) no-repeat;
+    }
+
+  }
+
+  .mmb_title{
+    width:75%;
+    height:70rem/50;
+    text-align: center;
+    float: left;
+    font-size: 34rem/50;
+    font-weight: bolder;
+    color:#fff;
+    padding-top: 12rem/50;
+  }
+
+  .mmb_appdown{
+    width: 10%;
+    height: 48rem/50;
+    float: right;
+    margin-right: 100rem/50;
+    margin-top: 10rem/50;
+    right: -3.9rem;
+    margin-right: 40rem/50;
+
+    img{
+      width: 60rem/50;
+      height:55rem/50;
+    }
+  }
+}
+
+.mmb_kfcproduct {
+  .product {
+    li {
+      border-bottom: 1rem/50 solid #e7e7e7;
+      height: 150rem/50;
+      margin-left: 10rem/50;
+
+      .pic {
+        float: left;
+        //width: 110rem/50;
+      }
+
+      .info {
+        line-height: 24rem/50;
+        padding-left: 90rem/50;
+
+        .tit {
+          color: #333;
+          line-height: 30rem/50;
+          min-height: 48rem/50;
+          margin-top: 20rem/50;
+        }
+
+        .price {
+          height: 25rem/50;
+          margin-top: 10rem/50;
+          em {
+            font-size: 20rem/50;
+            color: #000;
+            float: left;
+            font-weight: 600;
+          }
+        }
+
+        .other {
+          margin-top: 14rem/50;
+          color: #EE7700;
+          font-size: 14rem/50;
+        }
+
+      }
+    }
+  }
+
+}
+
+.mmb_footer {
+  width: 100%;
+  height: 170rem/50;
+
+  .mmb_foot_top {
+    height: 66rem/50;
+    line-height: 65rem/50;
+    margin-top: 60rem/50;
+    background-color: #efefef;
+    border-top: 1rem/50 solid #c4c4c4;
+    border-bottom: 1rem/50 solid #c4c4c4;
+    a {
+      width: 30%;
+      height: 65rem/50;
+      float: left;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-size: 22rem/50;
+      border-right: 1px solid #c5c5c5;
+    }
+    img {
+      vertical-align: middle;
+      margin-top: -5rem/50;
+      margin-right: 2rem/50;
+    }
+    .return {
+      width: 40%;
+    }
+
+  }
+
+  .mmb_foot_bottom {
+    text-align: center;
+    font-size: 18rem/50;
+    padding: 30rem/50 0;
+    color: gray;
+    background-color: #efefef;
+    .mobile-app {
+      color: red;
+    }
+    .mobile-size {
+      color: black;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

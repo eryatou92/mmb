@@ -1,0 +1,317 @@
+@charset "utf-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 21.33px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 26.67px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 28.27px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.mmb_container {
+  width: 100%;
+  background-color: #f1f1f1;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+/*头部*/
+.mmb_header {
+  width: 100%;
+  height: 1.4rem;
+  max-width: 750px;
+  background-color: #ff841d;
+}
+.mmb_header a {
+  display: block;
+  vertical-align: middle;
+  height: 1.4rem;
+}
+.mmb_header .mmb_logo {
+  width: 90%;
+  height: 1.4rem;
+  float: left;
+}
+.mmb_header .mmb_logo img {
+  vertical-align: middle;
+  height: 0.8rem;
+  width: 6rem;
+  margin-left: 0.4rem;
+}
+.mmb_header .mmb_appdown {
+  width: 10%;
+  height: 1.4rem;
+  float: right;
+}
+.mmb_header .mmb_appdown a {
+  padding: 0 0.36rem;
+}
+.mmb_header .mmb_appdown a img {
+  width: 0.96rem;
+  height: 0.9rem;
+  vertical-align: middle;
+}
+.mmb_menu .mmb_search {
+  width: 100%;
+  height: 1.6rem;
+  background-color: #fff;
+}
+.mmb_menu .mmb_search input {
+  width: 75%;
+  height: 1rem;
+  border-radius: 0.8rem;
+  margin-top: 0.32rem;
+  margin-left: 0.4rem;
+  padding-left: 0.4rem;
+  float: left;
+  border-style: none;
+  outline-style: none;
+  background-color: #f1f1f1;
+  font-size: 0.48rem;
+}
+.mmb_menu .mmb_search button {
+  width: 15%;
+  height: 1rem;
+  float: right;
+  margin-top: 0.32rem;
+  border-radius: 0.8rem;
+  background-color: #ff841d;
+  border-style: none;
+  outline-style: none;
+  margin-right: 0.4rem;
+  color: #fff;
+  font-size: 0.48rem;
+}
+.mmb_menu .rows {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 0.4rem;
+  padding-top: 1rem;
+}
+.mmb_menu .rows .lm {
+  height: 8.4rem;
+}
+.mmb_menu .rows .mmb_menu_item {
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+.mmb_menu .rows .mmb_menu_item img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 auto;
+  display: block;
+}
+.mmb_menu .rows .mmb_menu_item a {
+  text-decoration: none;
+  color: black;
+}
+.mmb_menu .rows .mmb_menu_item p {
+  font-size: 0.48rem;
+}
+.mmb_recommen .mmb_recommen_count {
+  width: 100%;
+  height: 1rem;
+  background-color: #ffa024;
+  font-size: 0.56rem;
+}
+.mmb_recommen .mmb_recommen_count a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0.4rem;
+  float: left;
+}
+.mmb_recommen .mmb_recommen_count .fa {
+  float: right;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  margin-right: 0.4rem;
+  color: #fff;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list {
+  width: 100%;
+  height: 4.76rem;
+  background-color: #fff;
+  border-bottom: 0.04rem solid #f9f9f9;
+  padding-top: 0.3rem;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list .product_list_fl {
+  width: 25%;
+  height: 4rem;
+  float: left;
+  margin-left: 0.3rem;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list .product_list_fl img {
+  width: 4rem;
+  height: 4rem;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list .product_list_fr {
+  width: 70%;
+  height: 4rem;
+  float: right;
+  margin-right: 0.2rem;
+  font-size: 0.44rem;
+  height: 2.6rem;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list .product_list_fr .product_title {
+  height: 2.6rem;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list .product_list_fr span {
+  color: #ff6c00;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list .product_list_fr .product_other span {
+  font-size: 0.4rem;
+  color: #b7bbd0;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list .product_list_fr .product_other .p_fl {
+  float: left;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list .product_list_fr .product_other .p_fc {
+  float: left;
+}
+.mmb_recommen .mmb_recommen_product .mmb_product_list .product_list_fr .product_other .p_fr {
+  float: right;
+}
+.mmb_footer .mmb_information {
+  width: 100%;
+  height: 2rem;
+  background-color: #fff;
+  padding: 0.4rem;
+}
+.mmb_footer .mmb_information a {
+  height: 1rem;
+  display: block;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  color: black;
+  font-size: 0.52rem;
+  text-align: center;
+  line-height: 1rem;
+  background-color: #f9f9f9;
+}
+.mmb_footer .mmb_pank {
+  width: 100%;
+  height: 1rem;
+  background-color: #ff9b1b;
+}
+.mmb_footer .mmb_pank a {
+  margin-left: 0.4rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.56rem;
+  line-height: 1rem;
+  float: left;
+}
+.mmb_footer .mmb_pank .fa {
+  float: right;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  margin-right: 0.4rem;
+  color: #fff;
+}
+.mmb_footer .mmb_foot {
+  width: 100%;
+  height: 3.4rem;
+}
+.mmb_footer .mmb_foot .mmb_foot_top {
+  height: 1.32rem;
+  line-height: 1.3rem;
+  margin-top: 0.8rem;
+  background-color: #efefef;
+  border-top: 0.02rem solid #c4c4c4;
+  border-bottom: 0.02rem solid #c4c4c4;
+}
+.mmb_footer .mmb_foot .mmb_foot_top a {
+  width: 30%;
+  height: 1.3rem;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 0.44rem;
+  border-right: 1px solid #c5c5c5;
+}
+.mmb_footer .mmb_foot .mmb_foot_top img {
+  vertical-align: middle;
+  margin-top: -0.1rem;
+  margin-right: 0.04rem;
+}
+.mmb_footer .mmb_foot .mmb_foot_top .return {
+  width: 40%;
+}
+.mmb_footer .mmb_foot .mmb_foot_bottom {
+  text-align: center;
+  font-size: 0.36rem;
+  padding: 0.6rem 0;
+  color: gray;
+  background-color: #efefef;
+}
+.mmb_footer .mmb_foot .mmb_foot_bottom .mobile-app {
+  color: red;
+}
+.mmb_footer .mmb_foot .mmb_foot_bottom .mobile-size {
+  color: black;
+}
+.mmb_footer .mmb_foot .mmb_foot_bottom a {
+  text-decoration: none;
+}

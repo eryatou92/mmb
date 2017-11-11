@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.adapt(@width){
+  @media (min-width:@width) {
+    html{
+      font-size: round(@width/15,2);
+    }
+  }
+}
+
+.adapt(320px);
+.adapt(360px);
+.adapt(375px);
+.adapt(384px);
+.adapt(400px);
+.adapt(414px);
+.adapt(424px);
+.adapt(480px);
+.adapt(540px);
+.adapt(720px);
+.adapt(750px);

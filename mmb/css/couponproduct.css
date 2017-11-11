@@ -1,0 +1,195 @@
+@charset "utf-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 21.33px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 26.67px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 28.27px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.mmb_container {
+  width: 100%;
+  background-color: #fff;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.mmb_header {
+  width: 100%;
+  height: 1.4rem;
+  max-width: 750px;
+  background-color: #f4483e;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mmb_header .mmb_back {
+  width: 10%;
+  height: 1.4rem;
+  padding: 0.24rem;
+  float: left;
+}
+.mmb_header .mmb_back .icon-back {
+  background: url(../images/icon_bar.png) no-repeat;
+}
+.mmb_header .mmb_title {
+  width: 75%;
+  height: 1.4rem;
+  text-align: center;
+  float: left;
+  font-size: 0.68rem;
+  font-weight: bolder;
+  color: #fff;
+  padding-top: 0.24rem;
+}
+.mmb_header .mmb_appdown {
+  width: 10%;
+  height: 0.96rem;
+  float: right;
+  margin-right: 2rem;
+  margin-top: 0.2rem;
+  right: -3.9rem;
+  margin-right: 0.8rem;
+}
+.mmb_header .mmb_appdown img {
+  width: 1.2rem;
+  height: 1.1rem;
+}
+.mmb_kfcproduct .product li {
+  border-bottom: 0.02rem solid #e7e7e7;
+  height: 3rem;
+  margin-left: 0.2rem;
+}
+.mmb_kfcproduct .product li .pic {
+  float: left;
+}
+.mmb_kfcproduct .product li .info {
+  line-height: 0.48rem;
+  padding-left: 1.8rem;
+}
+.mmb_kfcproduct .product li .info .tit {
+  color: #333;
+  line-height: 0.6rem;
+  min-height: 0.96rem;
+  margin-top: 0.4rem;
+}
+.mmb_kfcproduct .product li .info .price {
+  height: 0.5rem;
+  margin-top: 0.2rem;
+}
+.mmb_kfcproduct .product li .info .price em {
+  font-size: 0.4rem;
+  color: #000;
+  float: left;
+  font-weight: 600;
+}
+.mmb_kfcproduct .product li .info .other {
+  margin-top: 0.28rem;
+  color: #EE7700;
+  font-size: 0.28rem;
+}
+.mmb_footer {
+  width: 100%;
+  height: 3.4rem;
+}
+.mmb_footer .mmb_foot_top {
+  height: 1.32rem;
+  line-height: 1.3rem;
+  margin-top: 1.2rem;
+  background-color: #efefef;
+  border-top: 0.02rem solid #c4c4c4;
+  border-bottom: 0.02rem solid #c4c4c4;
+}
+.mmb_footer .mmb_foot_top a {
+  width: 30%;
+  height: 1.3rem;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 0.44rem;
+  border-right: 1px solid #c5c5c5;
+}
+.mmb_footer .mmb_foot_top img {
+  vertical-align: middle;
+  margin-top: -0.1rem;
+  margin-right: 0.04rem;
+}
+.mmb_footer .mmb_foot_top .return {
+  width: 40%;
+}
+.mmb_footer .mmb_foot_bottom {
+  text-align: center;
+  font-size: 0.36rem;
+  padding: 0.6rem 0;
+  color: gray;
+  background-color: #efefef;
+}
+.mmb_footer .mmb_foot_bottom .mobile-app {
+  color: red;
+}
+.mmb_footer .mmb_foot_bottom .mobile-size {
+  color: black;
+}
+.mmb_footer .mmb_foot_bottom a {
+  text-decoration: none;
+}

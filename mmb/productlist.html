@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>电视分类</title>
+  <link rel="stylesheet" href="css/productlist.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<div class="mmb_container">
+
+  <div class="mmb_header">
+    <div class="mmb_logo"><a href="index.html"><img src="images/header_logo.png" alt=""></a></div>
+    <div class="mmb_appdown"><a href="index.html"><img src="images/header_app.png" alt=""></a></div>
+  </div>
+
+  <div class="mmb_menu">
+    <div class="mmb_search">
+      <input type="text" placeholder="请输入你想比价的商品">
+      <button>搜索</button>
+    </div>
+  </div>
+
+  <div class="mmb_category">
+
+    <div class="product-list">
+      <a href="index.html" class="list-title1">首页 ></a>
+
+      <a href="category.html" class="list-title2">全部分类 ></a>
+      <a href="#">电视 ></a>
+      <a href="#" class="select">筛选</a>
+    </div>
+
+    <div class="product">
+      <ul>
+        <!--<li>-->
+          <!--<a href="#">-->
+            <!--<div class="pic">-->
+              <!--<img src="#" alt="">-->
+            <!--</div>-->
+            <!--<div class="info">-->
+              <!--<div class="tit">乐视TV(Letv)S50 Air全配版2D 50英寸 全高清LED液晶电视</div>-->
+              <!--<div class="price">-->
+                <!--<em>￥1999.00</em>-->
+              <!--</div>-->
+              <!--<div class="other">-->
+                <!--<em>报价(6)</em>-->
+                <!--<em>评论(2286)</em>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</a>-->
+        <!--</li>-->
+      </ul>
+
+    </div>
+
+    <div class="page">
+
+      <span class="ww33"><a href="#">上一页</a></span>
+      <span class="ww33"><select><option value="1">1/14</option></select></span>
+      <span class="ww33"><a href="#">下一页</a></span>
+
+    </div>
+
+  </div>
+
+  <div class="mmb_footer">
+    <div class="mmb_foot_top">
+      <a href="#">登录</a>
+      <a href="#" class="register">注册</a>
+      <a href="#" class="return">
+        <img src="#" alt="">
+        返回顶部</a>
+    </div>
+    <div class="mmb_foot_bottom">
+      <p>
+        <a class="mobile-app" href="#">手机APP下载</a>
+        <a class="mobile-size" href="#">慢慢买手机版</a>
+        -- 掌上比价平台
+      </p>
+      <p>m.manmanbuy.com</p>
+    </div>
+  </div>
+
+</div>
+
+
+<script type="text/html" id="tpl">
+{{each result as v i}}
+
+<li>
+  <a href="bijia.html?productid=0">
+    <div class="pic">
+      {{#v.productImg}}
+    </div>
+    <div class="info">
+      <div class="tit">{{v.productName}}</div>
+      <div class="price">
+        <em>{{v.productPrice}}</em>
+      </div>
+      <div class="other">
+        <em>{{v.productQuote}}</em>
+        <em>{{v.productCom}}</em>
+      </div>
+    </div>
+  </a>
+</li>
+
+{{/each}}
+</script>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template.js"></script>
+<script src="js/common.js"></script>
+<script src="js/productlist.js"></script>
+</body>
+</html>

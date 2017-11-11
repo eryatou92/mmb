@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>肯德基优惠券</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/couponproduct.css">
+</head>
+<body>
+
+<div class="mmb_container">
+
+  <div class="mmb_header">
+  <div class="mmb_back"><a href="index.html" class="icon-back"></a></div>
+  <div class="mmb_title"><span>肯德基优惠券</span></div>
+  <div class="mmb_appdown"><a href="index.html"><img src="images/header_app.png" alt=""></a></div>
+</div>
+
+  <div class="mmb_kfcproduct">
+    <div style="font-size:12px; text-align:center; color:#999; margin:8px 0px;">
+      --点餐前出示手机中的优惠券，即可享受优惠--
+    </div>
+
+    <div class="product">
+      <ul>
+        <!--<li>-->
+          <!--<a href="#">-->
+            <!--<div class="pic">-->
+              <!--<img src="#" alt="">-->
+            <!--</div>-->
+            <!--<div class="info">-->
+              <!--<div class="tit">C27  两人小食组 新奥尔良烤翅2块+薯条(中)+黄金鸡块5块+劲爆鸡米花(小) 2016年10月凭肯德基优惠券</div>-->
+              <!--<div class="price">-->
+              <!--<em>￥28</em>-->
+            <!--</div>-->
+            <!--<div class="other">-->
+              <!--有效期至10月31日-->
+            <!--</div>-->
+            <!--</div>-->
+          <!--</a>-->
+        <!--</li>-->
+      </ul>
+
+    </div>
+
+  </div>
+
+  <div class="mmb_footer">
+    <div class="mmb_foot_top">
+      <a href="#">登录</a>
+      <a href="#" class="register">注册</a>
+      <a href="#" class="return">
+        <img src="#" alt="">
+        返回顶部</a>
+    </div>
+    <div class="mmb_foot_bottom">
+      <p>
+        <a class="mobile-app" href="#">手机APP下载</a>
+        <a class="mobile-size" href="#">慢慢买手机版</a>
+        -- 掌上比价平台
+      </p>
+      <p>m.manmanbuy.com</p>
+    </div>
+  </div>
+
+</div>
+
+<script type="text/html" id="tmp">
+{{each result as v i}}
+
+<li>
+  <a href="http://d3.5ikfc.com/static/thumbs/1016/kfc-5ikfc-108_pc27.jpg">
+    <div class="pic">
+      {{#v.couponProductImg}}
+    </div>
+    <div class="info">
+      <div class="tit">{{v.couponProductName}}</div>
+      <div class="price">
+        <em>{{v.couponProductPrice}}</em>
+      </div>
+      <div class="other">
+        {{v.couponProductTime}}
+      </div>
+    </div>
+  </a>
+</li>
+
+{{/each}}
+</script>
+
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template.js"></script>
+<script src="js/common.js"></script>
+<script src="js/couponproduct.js"></script>
+</body>
+</html>

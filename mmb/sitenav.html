@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>商场导航</title>
+  <link rel="stylesheet" href="css/sitenav.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+<div class="mmb_container">
+  <div class="mmb_header">
+    <div class="mmb_back"><a href="index.html" class="icon-back"></a></div>
+    <div class="mmb_title"><span>商场导航</span></div>
+  </div>
+
+  <div class="mmb_site_nav">
+    <div class="link flearfix">
+      <!--<a href="#" target="_blank">-->
+        <!--<img src="#" alt="">-->
+        <!--京东商城-->
+      <!--</a>-->
+
+    </div>
+  </div>
+
+  <div class="mmb_footer">
+    <div class="mmb_foot_top">
+      <a href="#">登录</a>
+      <a href="#" class="register">注册</a>
+      <a href="#" class="return">
+        <img src="#" alt="">
+        返回顶部</a>
+    </div>
+    <div class="mmb_foot_bottom">
+      <p>
+        <a class="mobile-app" href="#">手机APP下载</a>
+        <a class="mobile-size" href="#">慢慢买手机版</a>
+        -- 掌上比价平台
+      </p>
+      <p>m.manmanbuy.com</p>
+    </div>
+  </div>
+
+</div>
+
+<script type="text/html" id="navId">
+{{each result as v i}}
+<a href="{{v.navHref}}" target="_blank">
+  <img src="{{v.navImg}}" alt="">
+  {{v.navTitle}}
+</a>
+  {{/each}}
+</script>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template.js"></script>
+<script src="js/common.js"></script>
+<script src="js/sitenav.js"></script>
+</body>
+</html>
